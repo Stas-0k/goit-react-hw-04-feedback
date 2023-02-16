@@ -1,0 +1,22 @@
+.bttn{
+    display: inlone-flex;
+    width: 80px;
+    height: 35px;
+    padding: 5px;
+    font-size: medium;
+    border: 1px solid grey ;
+    box-shadow: 1px -1px teal;
+    cursor: pointer;
+    background-color:ghostwhite;
+    border-radius: 5%;
+}
+
+
+.bttn:not(:last-child){
+    margin-right: 20px;
+}
+
+.bttn:hover{
+    background-color:bisque;
+}
+
